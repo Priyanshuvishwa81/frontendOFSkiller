@@ -100,7 +100,9 @@ function addMessage(message, sender) {
   const messages = document.getElementById("messages");
   if (messages) {
     messages.appendChild(messageContainer);
-    messages.scrollTop = messages.scrollHeight;
+    setTimeout(() => {
+      messages.scrollTop = messages.scrollHeight;
+    }, 400);
   }
 }
 
