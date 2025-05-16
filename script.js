@@ -73,7 +73,7 @@ async function getIntent() {
       } else {
         const text = await res.text();
         showError("somthings wrong here ...." + text);
-        // console.log("error");
+        console.log("error" + text);
       
       }
       
