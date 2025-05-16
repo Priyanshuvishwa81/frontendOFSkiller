@@ -72,7 +72,7 @@ async function getIntent() {
         window.location.href = "login.html";
       } else {
         const text = await res.text();
-        showError("somthings wrong here ....");
+        showError("somthings wrong here ...." + text);
         // console.log("error");
       
       }
