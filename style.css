@@ -97,10 +97,10 @@ button:hover {
   background-color: #128c7e;
 }
 
-/* ✅ Responsive for Mobile Screens */
 @media (max-width: 600px) {
   .chat-container {
-    height: 95vh;
+    height: 100%;
+    width:100%,
     border-radius: 0;
   }
 
